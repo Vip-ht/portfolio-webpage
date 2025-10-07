@@ -4,6 +4,16 @@
 body {
     margin: 0;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: red;
+}
 #name {
     font-size: 2.2rem;
     color: #e83108;
@@ -44,7 +54,7 @@ li {
 .nav {
     text-decoration: none;
     cursor: pointer;
-    color: #afe117;
+    color: #afe117 !important;
 }
 #namebox {
     width: 60%;
@@ -64,4 +74,41 @@ h1 {
     text-align: center;
     color: white;
     font-size: 5em;
+}
+.projects {
+    background-color: aqua;
+}
+#projects-section-header {
+    text-align: center;
+    color: #e83108;
+    font-size: 4em;
+}
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    margin-bottom: 6rem;
+}
+.project-tile {
+    background-color: gray;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    border-radius: 2px;
+
+}
+.project-img {
+    height: calc(100%-6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+.project-title {
+    font-size: 2rem;
+}
+#contact {
+
+}
+#contact-header {
+    
 }
