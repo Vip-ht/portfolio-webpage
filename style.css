@@ -1,11 +1,12 @@
-@media screen and (min-width:480px){
-    body {
-        margin: 0;
-    }
+@media screen, print{
+    /* */
 }
 :root {
     font-size: 58%;
 }
+body {
+        margin: 0;
+    }
 a {
     text-decoration: none;
     color: black;
