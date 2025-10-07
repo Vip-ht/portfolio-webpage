@@ -1,6 +1,4 @@
-@media screen, print{
-    /* */
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 :root {
     font-size: 58%;
 }
@@ -173,4 +171,11 @@ h2 {
 .fa-github {
     background: black;
     color: white;
+}
+
+@media (max-width: 600px) {
+  #navbar {
+    padding: 0rem 1rem;
+    justify-content: center;
+  }
 }
