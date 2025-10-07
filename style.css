@@ -173,7 +173,7 @@ h2 {
     color: white;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #navbar {
     padding: 0rem 1rem;
     justify-content: center;
