@@ -1,0 +1,67 @@
+:root {
+    font-size: 58%;
+}
+body {
+    margin: 0;
+}
+#name {
+    font-size: 2.2rem;
+    color: #e83108;
+    margin: 0;
+}
+#description {
+    font-size: 1.8rem;
+    color: rgb(0, 255, 17);
+    margin: 0;
+}
+#navbar {
+    background-color: rgb(73, 10, 219, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    min-height: 35px;
+    padding: 25px;
+}
+ul {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 1em;
+}
+li {
+    font-size: large;
+    display: block;
+    unicode-bidi: isolate;
+    box-sizing: border-box;
+}
+#navlist {
+    display: flex;
+    margin-right: 2rem;    
+}
+.nav {
+    text-decoration: none;
+    cursor: pointer;
+    color: #afe117;
+}
+#namebox {
+    width: 60%;
+}
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-weight: 700;
+    background-image: url(https://www.ghacks.net/wp-content/uploads/2023/08/PSN-not-working.jpg);
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 5em;
+}
